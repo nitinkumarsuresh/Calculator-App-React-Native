@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "calculator-app",
+    "slug": "calculator-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/nkc.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/nkc.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/nkc.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.nitin_kumar_s.calculatorapp"
+    },
+    "web": {
+      "favicon": "./assets/nkc.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d40fb787-9284-4080-beec-c5cce62dba9c"
+      }
+    }
+  }
+}
